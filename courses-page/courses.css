@@ -1,0 +1,152 @@
+ul {
+    list-style-type: none;
+  }
+   
+  .kursevi > div {
+    display: flex;
+    flex-direction: row;
+    padding: 17px 15px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    min-width: 33.33333%;
+    min-height: 150px;
+    box-shadow: gray;
+
+  
+  } 
+  .ikoni {
+    width: 150px;
+    height: 150px;
+  }
+
+  
+  .kursevi > div > p {
+    color: gray;
+    min-width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+  }
+
+  
+
+  .kursevi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+  
+    
+  }
+  
+  .site-zaedno {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  #navigacija {
+    width: 20%;
+  }
+  
+  .kursevi {
+    width: 80%;
+  }
+  
+  .matematika{
+    height: 280px;
+  }
+  
+  .fizika{
+    height: 300px;
+  }
+  
+  .programiranje{
+    height: 200px;
+  }
+  
+  .dizajn{
+    height: 250px;
+  }
+  
+  .elektronika{
+    height: 100px;
+  }
+  
+  .energetika{
+    height: 150px;
+  }
+  
+  
+  .kocka {
+    width: 50px;
+    background-color: cornflowerblue;
+  }
+  
+  .dijagram {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+  
+  .kategorija {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .naslov {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer {
+    position:fixed;
+    min-height: 150px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    color: darkslategray;
+    font-size: smaller;
+    padding: 20px 0 20px 0;
+  }
+  
+  .footer-lista {
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-left: 1px solid darkslategray;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #navigacija {
+      display: none;
+    }
+  
+    .kursevi {
+      width: 100%;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .kursevi > div {
+      min-width: 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .kursevi > div {
+      min-width: 100%;
+    }
+  }
+  
+  
+  
